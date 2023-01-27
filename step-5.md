@@ -105,4 +105,4 @@ start.addEventListener("click", function() {
 
 ```
 
-I mappen `projects` finns en del av koden i projektet. Läs filen `todo.md` i mappen för att se vad som fattas.
+I mappen `project` finns en del av koden i projektet. Läs filen `todo.md` i mappen för att se vad som fattas.
