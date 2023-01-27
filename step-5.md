@@ -43,8 +43,8 @@ function turnCards(arrayOfCards) {
     let timeOutId = setTimeout(function() {
 
         // ange förvald bakgrund
-        arrayOfCards[0].style.backgroundImage = "url('images/card-background.jpg')";
-        arrayOfCards[1].style.backgroundImage = "url('images/card-background.jpg')";
+        arrayOfCards[0].style.backgroundImage = "url("+backgroundImage+")";
+        arrayOfCards[1].style.backgroundImage = "url("+backgroundImage+")";
 
         // radera tillfälliga kort 
         tmpCards = [];

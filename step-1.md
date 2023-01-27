@@ -10,10 +10,10 @@ I projektmappen skapar du en ny mapp med namnet `images`.
 
 I mappen `images` lägger du därefter in bilder som ditt memory ska visa, ex:
 
-- card-background.jpg
-- image-1.jpg
-- image-2.jpg
-- image-3.jpg
+- card-background.png
+- image-1.png
+- image-2.png
+- image-3.png
 
 
 Skapa föjande filer i projektmappen:
@@ -76,8 +76,10 @@ div.card {
     margin: 1rem;
     display: inline-block;
     width: 4rem;
-    height: 4rem;    
-    background-image: url("images/card-background.jpg");
+    height: 4rem;
+
+    /* använd bakgrundsbild */
+    background-image: url("images/card-background.png");
     background-size: cover;
 }
 
@@ -100,6 +102,9 @@ const stage = document.querySelector("#stage");
 
 // memory kort
 let cards = ["firefox.png", "firefox.png", "ie.png", "ie.png", "netscape.png", "netscape.png","safari.png", "safari.png"];
+
+// bakgrundsbild - för att vända tillbaka kort
+let backgroundImage = "images/card-background.png";
 
 // spara kort som ska jämföras
 let tmpCards = [];
@@ -138,3 +143,5 @@ start.addEventListener("click", function() {
 ```
 
 När du klickar på knappen Starta visas memory korten 
+
+![Steg 1](tutorial-1.png)

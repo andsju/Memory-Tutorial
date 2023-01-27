@@ -1,0 +1,24 @@
+body {
+    background-color: darkslategray;
+    color: whitesmoke
+}
+
+div#timer {
+    margin: 1rem
+}
+
+div#stage {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: fit-content;
+}
+
+div.card {
+    margin: 1rem;
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;    
+    background-image: url("images/card-background.png");
+    background-size: cover;
+}
