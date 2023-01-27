@@ -119,8 +119,9 @@ function checkMemorySolved() {
     }
 }
 
-// slumpa array
+// validera och slumpa array
 // https://en.wikipedia.org/wiki/Fisher-Yates_shuffle
+// https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 function shuffleArray(array) {
     if (!Array.isArray(array)) {return}
     for (var i = array.length - 1; i > 0; i--) {

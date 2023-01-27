@@ -74,15 +74,17 @@ stage.addEventListener("click", function(event) {
 ```
 
 
-För att slumpnässigt visa korten ska korten i array cards slumpas varje gång spelet startas.
+För att slumpmässigt visa korten ska korten i array cards slumpas varje gång spelet startas.
 
-Lägg till funktionen `shuffle` (under funktioner)
+Lägg till funktionen `shuffle()` (under funktioner)
 
 ```js
 
-// slumpa array
+// validera och slumpa array
 // https://en.wikipedia.org/wiki/Fisher-Yates_shuffle
+// https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 function shuffleArray(array) {
+    if (!Array.isArray(array)) {return}
     for (var i = array.length - 1; i > 0; i--) {
         var j = Math.floor(Math.random() * (i + 1));
         var temp = array[i];
