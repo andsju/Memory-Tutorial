@@ -2,7 +2,7 @@
 
 En guide i hur man kan skapa ett Memory med HTML, CSS och JavaScript.
 
-[Steg 1](step-1.md)
+[Steg 1](step-1.md) Skapa filer och ange bilder
 
 [Steg 2](step-2.md)
 

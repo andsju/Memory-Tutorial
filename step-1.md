@@ -10,7 +10,7 @@ I projektmappen skapar du en ny mapp med namnet `images`.
 
 I mappen `images` lägger du därefter in bilder som ditt memory ska visa, ex:
 
-- memory-background.jpg
+- card-background.jpg
 - image-1.jpg
 - image-2.jpg
 - image-3.jpg
